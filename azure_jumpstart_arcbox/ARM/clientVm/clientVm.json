@@ -9,6 +9,13 @@
                 "description": "The name of your Virtual Machine"
             }
         },
+        "arcServerResourceGroup": {
+            "type": "String",
+            "defaultValue": "ArcServers",
+            "metadata": {
+                "description": "The name of the Resource Group to set the Arc Agents to."
+            }
+        },
         "capiArcDataClusterName": {
             "type": "String",
             "defaultValue": "ArcBox-CAPI-Data",
